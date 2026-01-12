@@ -100,8 +100,7 @@ const Hero = () => {
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: -100 }}
                                 transition={{ duration: 0.5 }}
-                                exit={{ opacity: 0, x: -100 }}
-                                transition={{ duration: 0.5 }}
+
                                 className={`absolute inset-0 w-full h-full ${currentIndex === 0 ? 'object-contain bg-white' : 'object-cover'}`}
                             />
                         </AnimatePresence>
