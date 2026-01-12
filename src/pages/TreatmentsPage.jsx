@@ -1,5 +1,5 @@
 import React from 'react';
-import Services from '../components/Services';
+import Treatments from '../components/Treatments';
 
 
 const TreatmentsPage = () => {
@@ -13,7 +13,7 @@ const TreatmentsPage = () => {
                     </p>
                 </div>
             </div>
-            <Services />
+            <Treatments />
 
         </div>
     );

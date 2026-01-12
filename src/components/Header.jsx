@@ -23,7 +23,7 @@ const Header = () => {
         { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
         { name: 'Know Your Doctor', path: '/know-your-doctor' },
-        { name: 'Services', path: '/treatments' },
+        { name: 'Treatments', path: '/treatments' },
         { name: 'Blog', path: '/blog' },
 
 
@@ -49,9 +49,9 @@ const Header = () => {
                     </div>
 
                     <div className="hidden md:flex items-center space-x-6 shrink-0 z-10 bg-primary pl-4">
-                        <a href="mailto:info@drprabudoss.com" className="flex items-center hover:text-secondary transition-colors">
+                        <a href="mailto:drprabudoss@gmail.com" className="flex items-center hover:text-secondary transition-colors">
                             <Mail size={14} className="mr-2" />
-                            <span>info@drprabudoss.com</span>
+                            <span>drprabudoss@gmail.com</span>
                         </a>
                     </div>
                     <div className="flex items-center space-x-4 ml-6 shrink-0 bg-primary">

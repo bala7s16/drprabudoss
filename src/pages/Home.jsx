@@ -5,6 +5,7 @@ import CogsCentre from '../components/CogsCentre';
 
 import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
+import FAQ from '../components/FAQ';
 
 const Home = () => {
     // Smooth scroll for anchor links if using hash navigation within the page
@@ -35,6 +36,7 @@ const Home = () => {
 
 
             <Testimonials />
+            <FAQ />
             <Contact />
         </div>
     );

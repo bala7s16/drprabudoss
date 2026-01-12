@@ -52,7 +52,7 @@ const About = () => {
                         </h3>
 
                         <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-                            With over 15 years of surgical excellence, Dr. Prabu Doss is a distinguished figure in the field of Gastroenterology. His approach combines cutting-edge surgical techniques with a deep commitment to patient comfort and rapid recovery.
+                            With over 20 years of surgical excellence, Dr. Prabu Doss is a distinguished figure in the field of Gastroenterology. His approach combines cutting-edge surgical techniques with a deep commitment to patient comfort and rapid recovery.
                         </p>
 
                         {/* Professional Highlights */}

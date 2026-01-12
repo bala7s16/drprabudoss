@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar, ArrowRight, Activity, Users, Award } from 'lucide-react';
 import doctorImg from '../assets/doctor.png';
@@ -58,18 +59,18 @@ const Hero = () => {
                             <Calendar size={20} />
                             Book Appointment
                         </a>
-                        <a
-                            href="#services"
+                        <Link
+                            to="/treatments"
                             className="inline-flex items-center justify-center gap-2 bg-white border border-gray-200 hover:border-primary text-gray-700 hover:text-primary px-8 py-4 rounded-lg font-bold text-lg transition-all shadow-sm hover:shadow-md"
                         >
                             Our Treatments
                             <ArrowRight size={20} />
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="mt-12 flex gap-8 border-t border-gray-200 pt-8">
                         <div>
-                            <h4 className="text-3xl font-bold text-dark">15+</h4>
+                            <h4 className="text-3xl font-bold text-dark">20+</h4>
                             <p className="text-gray-500 text-sm">Years Experience</p>
                         </div>
                         <div>
